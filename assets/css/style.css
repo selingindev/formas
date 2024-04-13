@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 15, 44);
+    border: 1px solid black;
+    padding: 0.4em;
+}
+
+h1{
+    color: white;
+    word-spacing: 10px;
+    font-size: 2.5em;
+}
+section{
+    height: 3s0vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.bannerText{
+    height: 100%;
+    padding: 1em;
+    width: 80%;
+}
+.bannerText h2{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+.containerContent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.formasTop , .formasBottom{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    margin: 2em;
+    background-color: rgb(243, 243, 243);
+    padding: 0.4em;
+}
+.formasTop > .forma{
+    width: 30%;
+}
+.formasBottom > .forma{
+    width: 25%;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0.4em;
+    align-items: center;
+}
+
+.containerInfo{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerImg{
+    width: 100%;
+    height: 80%;
+    padding: 0.2em;
+}
+.containerImg img{
+    margin: 0.4em 0;
+    width: 100%;
+    height: 100%;
+}
+.nomeForma{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.containerButton{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(2, 4, 35);
+    border-radius: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 1, 14);
+}
+
