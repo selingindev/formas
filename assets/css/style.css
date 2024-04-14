@@ -9,20 +9,22 @@ header{
     width: 100%;
     height: 15vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(0, 15, 44);
     border: 1px solid black;
-    padding: 0.4em;
+    padding: 0.6em;
 }
 
 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    word-spacing: 10px;
-    font-size: 2.5em;
+    word-spacing: 5px;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
 }
 section{
-    height: 3s0vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -33,17 +35,18 @@ section{
 
 .bannerText{
     height: 100%;
-    padding: 1em;
-    width: 80%;
+    padding: 0.5em;
+    width: 90%;
 }
 .bannerText h2{
     width: 100%;
     height: 100%;
+    font-size: 1.5em;
 }
 
 main{
     width: 100%;
-    height: 100vh;
+    height: 140vh;
 }
 .containerContent{
     display: flex;
@@ -58,7 +61,7 @@ main{
     display: flex;
     justify-content: center; 
     margin: 2em;
-    background-color: rgb(243, 243, 243);
+    background-color: rgba(12, 12, 12, 0.421);
     padding: 0.4em;
 }
 .formasTop > .forma{
@@ -119,12 +122,16 @@ button{
     width: 100%;
     height: 100%;
     color: white;
-    background-color: rgb(2, 4, 35);
+    background-color: rgba(2, 4, 35, 0.9);
     border-radius: 10px;
     font-size: 1.5em;
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(0, 1, 14);
+    background-color: rgb(2, 4, 35);
 }
-
+footer{    
+    background-color: rgb(0, 15, 44);
+    height: 80px;
+    width: 100%;
+}
