@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circulo</title>
+    <title>Calculadora de Área de Polígonos</title>
+    <link rel="stylesheet" href="/assets/css/poligono.css">
 </head>
 <body>
-    
+
+<h1>Calculadora de Área de Polígonos</h1>
+
+<p>Escolha um tipo de polígono e insira os dados necessários para calcular a área.</p>
+
+<div class="container">
+    <label for="poligono">Tipo de polígono:</label>
+    <select id="poligono">
+        <option value="triangulo">Triângulo</option>
+        <option value="trapezio">Trapézio</option>
+        <option value="pentagono">Pentágono</option>
+    </select>
+    <div id="inputs">
+        <label for="input1">Medida 1:</label>
+        <input type="number" id="input1">
+        <label for="input2">Medida 2:</label>
+        <input type="number" id="input2">
+        <label for="input3">Medida 3:</label>
+        <input type="number" id="input3">
+    </div>
+    <button onclick="calcularAreaPoligono()">Calcular Área</button>
+    <p id="resultado"></p>
+</div>
+
+<script src="/assets/js/script.js"></script>
+
 </body>
 </html>
