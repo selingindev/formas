@@ -17,7 +17,7 @@ header{
 h1{
     display: flex;
     justify-content: center;
-    align-itrems: center;
+    align-items: center;
     color: white;
     word-spacing: 5px;
     font-size: 2rem;
